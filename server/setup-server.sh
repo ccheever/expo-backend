@@ -3,5 +3,5 @@
 curl https://get.volta.sh | bash
 source $HOME/.profile
 volta install node yarn
-sudo apt update && sudo apt upgrade && sudo apt autoremove
-sudo apt install postgresql postgresql-contrib
+sudo apt update --yes && sudo apt upgrade --yes && sudo apt autoremove --yes
+sudo apt install --yes postgresql postgresql-contrib
